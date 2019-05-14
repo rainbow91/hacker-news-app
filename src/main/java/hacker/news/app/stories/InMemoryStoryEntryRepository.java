@@ -9,11 +9,6 @@ public class InMemoryStoryEntryRepository implements StoryEntryRepository {
     private long localId = 0L;
 
     public InMemoryStoryEntryRepository() {
-//        long id = 0;
-//        storyEntryies = new ArrayList<StoryEntry>();
-//        while (id < 10) {
-//            storyEntryies.add(new StoryEntry(id,"Story " + id, "url " + id++));
-//        }
     }
     public  List<StoryEntry> getStoryEntries() {
         return storyEntryies;
