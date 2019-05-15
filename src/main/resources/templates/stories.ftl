@@ -6,13 +6,13 @@
            href="/css/style.css"/>
    </head>
 <body>
-    <center> <h3>Hacker News Top Stories</h3>
+    <center> <h3>Hacker News Top Stories</h3><br>
       <div>
-         <table border="1">
-            <tr>
-               <th>Order</th>
-               <th>Title</th>
-            </tr>
+         <table>
+<#--            <tr>-->
+<#--               <th></th>-->
+<#--               <th>Title</th>-->
+<#--            </tr>-->
             <#list stories as storyentry>
             <tr>
                <td>${storyentry?counter}</td>

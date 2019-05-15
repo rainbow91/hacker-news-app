@@ -30,6 +30,7 @@ public class StoriesUpdater {
     public void update() throws IOException {
         logger.debug("Delete all stories");
         this.timeEntriesRepo.deleteAll();
+        logger.debug("Query top ten stories");
         getStories();
     }
 
