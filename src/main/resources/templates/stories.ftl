@@ -6,7 +6,7 @@
            href="/css/style.css"/>
    </head>
 <body>
-    <center> <h3>Hacker News Top Ten Stories</h3>
+    <center> <h3>Hacker News Top Stories</h3>
       <div>
          <table border="1">
             <tr>
